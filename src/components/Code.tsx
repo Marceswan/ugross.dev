@@ -5,7 +5,7 @@ import theme from 'prism-react-renderer/themes/oceanicNext';
 import { siteConfig } from '~/config/site.config';
 import { Language } from '~/types/codeBlock';
 import { CodeCopyButton } from './CodeCopyButton';
-import Prism from "prism-react-renderer/prism";
+//import Prism from "prism-react-renderer/prism";
 
 (typeof global !== "undefined" ? global : window).Prism = Prism;
 
