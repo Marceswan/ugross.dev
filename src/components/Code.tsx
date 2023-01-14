@@ -7,7 +7,7 @@ import { Language } from '~/types/codeBlock';
 import { CodeCopyButton } from './CodeCopyButton';
 //import Prism from "prism-react-renderer/prism";
 
-(typeof global !== "undefined" ? global : window).Prism = Prism;
+//(typeof global !== "undefined" ? global : window).Prism = Prism;
 
 require("prismjs/components/prism-apex");
 
