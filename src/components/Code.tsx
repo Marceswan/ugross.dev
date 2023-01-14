@@ -1,14 +1,10 @@
 import React from 'react';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import theme from 'prism-react-renderer/themes/oceanicNext';
-import Prism from 'prism-react-renderer/prism';
 import { siteConfig } from '~/config/site.config';
 import { Language } from '~/types/codeBlock';
 import { CodeCopyButton } from './CodeCopyButton';
 
-(typeof global !== "undefined" ? global : window).Prism = Prism;
-
-require("prismjs/components/prism-apex");
 
 type CodeProps = {
   codeString: string;
